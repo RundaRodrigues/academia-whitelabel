@@ -1,0 +1,83 @@
+/* ============================================================
+   tokens.css — ACADEMIA
+   Direção visual adaptada de awesome-design-md/nike:
+   contraste tipográfico extremo, cromo quase monocromático
+   (preto, branco e um cinza), botões em pílula. A cor só
+   aparece na foto e num único acento de energia — nunca
+   como decoração de interface.
+   ============================================================ */
+
+:root {
+  color-scheme: light;
+
+  /* --- cor --- */
+  --primary:        #111111;
+  --primary-hover:  #000000;
+  --primary-soft:   #ededed;
+  --primary-tint:   #f5f5f5;
+  /* volt: o único momento cromático da interface */
+  --accent:         #ccff00;
+  --accent-ink:     #1a2200;
+  --accent-soft:    #f2ffb8;
+  --on-primary:     #ffffff;
+
+  --ink:            #111111;
+  --body:           #4b4b4d;
+  --muted:          #707072;
+  --muted-soft:     #9e9ea0;
+
+  --canvas:         #ffffff;
+  --surface:        #f5f5f5;
+  --surface-card:   #ffffff;
+  --surface-deep:   #111111;
+  --border:         #e5e5e5;
+  --border-strong:  #cacacb;
+
+  --footer-bg:      #111111;
+  --footer-fg:      #ffffff;
+  --header-bg:      rgba(255, 255, 255, 0);
+  --header-bg-scrolled: rgba(255, 255, 255, .92);
+  --focus:          #111111;
+
+  /* --- tipografia --- */
+  --font-display: 'Anton', 'Arial Narrow', Impact, system-ui, sans-serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --fs-body:  16px;
+  --fs-lead:  18px;
+  --fs-h1:    clamp(3.1rem, 1.4rem + 7.4vw, 8rem);
+  --fs-h2:    clamp(2.2rem, 1.3rem + 3.8vw, 4.2rem);
+  --fs-h3:    1.22rem;
+  --fs-h4:    1.05rem;
+  --fs-btn:   14px;
+  --fw-btn:   700;
+  --tracking-display: -.01em;
+  --tracking-btn: .04em;
+
+  /* --- forma --- */
+  --radius-sm:   8px;
+  --radius-md:   10px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-btn:  999px;   /* pílula, como o CTA da referência */
+  --radius-mark: 8px;
+
+  /* --- espaço --- */
+  --maxw:      1220px;
+  --gutter:    22px;
+  --gap:       18px;
+  --section-y: clamp(66px, 8vw, 116px);
+  --card-p:    26px;
+  --btn-py:    13px;
+  --btn-px:    26px;
+  --header-h:  70px;
+
+  /* --- profundidade e movimento --- */
+  --shadow-sm:  0 1px 2px rgba(17, 17, 17, .06);
+  --shadow-md:  0 6px 22px rgba(17, 17, 17, .09);
+  --shadow-lg:  0 24px 60px rgba(17, 17, 17, .16);
+  --shadow-btn: none;
+  --dur:        .2s;
+  --dur-slow:   .34s;
+  --ease:       cubic-bezier(.2, .7, .3, 1);
+}
